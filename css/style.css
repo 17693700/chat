@@ -1,0 +1,844 @@
+	*{ 
+		text-decoration: none;
+		list-style-type: none;
+		color:black;
+		font-family: "微软雅黑";
+    padding:0;
+    margin:0;
+	}
+  a{
+    color:white;
+  }
+	a:hover{
+		color:#30D0B6;;
+	}
+	form input{
+		border:1px solid white;
+    padding-left:5px;
+    vertical-align:middle;
+    background:url("../img/toumingbj.png");
+	}
+  .welcome{
+    color:white;
+    position:relative;
+    top:20px;
+    left:1000px;
+    opacity:0;
+    filter:alpha(opacity=0);
+  }
+  .login{
+    position:absolute;
+    left:50%;
+    top:50%; 
+    margin:-150px 0 0 -190px;
+    color:white;
+  }
+  h1{
+    width:400px;
+  }
+  .login input{
+    width:255px;
+    height:35px;
+    margin-top:5px;
+    color:white;
+     line-height:35px;
+  }
+  .login #input1{
+    width:160px;
+
+  }
+  .login #checkCode{
+    width:84px;
+    text-align:center;
+    font-family:Arial;  
+    font-style:italic;
+  }
+  .login .jizhumima{
+    position:absolute;
+    top:146px;
+    width:16px;
+    height:16px;
+  border:0px;
+  }
+  .login .zidongdenglu{
+    position:absolute;
+    top:146px;
+    width:16px;
+    height:16px;
+    border:0px;
+  }
+  .login .xingbie{
+    position:absolute;
+    top:146px;
+    width:16px;
+    height:16px;
+    border:0px;
+  }
+  .login .tj{
+    position:absolute;
+    height:30px;
+    left:10px;
+  }
+  .login .tj:hover{
+    color:#30D0B6;
+    border:1px solid #30D0B6;
+  }
+  .login .tj1{
+    position:absolute;
+    height:30px;
+    width:100px;
+    left:52px;
+    margin-top:50px;
+    line-height:30px;
+  }
+  .login .tj11{
+    position:absolute;
+    height:30px;
+    width:100px;
+    left:215px;
+    margin-top:50px;
+     line-height:30px;
+  }
+  .login .tj1:hover{
+    color:#30D0B6;
+    border:1px solid #30D0B6;
+  }
+  .login .tj11:hover{
+    color:#30D0B6;
+    border:1px solid #30D0B6;
+  }
+
+
+
+
+ #shifounengyong{
+       position:absolute;
+       display: block;
+       width:150px;
+       height:20px;
+       color:white;
+       left:320px;
+       top:12px;
+       font-size: 13px;
+  }
+
+
+
+
+
+  .div1{
+    position:relative;
+    top: 40px; 
+    left: 150px; 
+    bottom: 0; 
+    right: 0;
+    width:320px;
+    height:670px;
+    color:white;
+    background-color:white;
+    overflow: hidden;
+    display:none;
+  }
+  .div1 .guanbi{
+    position:absolute;
+    top:0px;
+    right:0px;
+    cursor:pointer;
+    width:25px;
+    height:25px;
+    background-image:url(../img/close.png);
+  }
+
+  .div1 .touxiang{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:53px;
+    left:20px;
+    z-index: 1;
+  }
+  .div1 .touxiang img{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    cursor: pointer;
+  }
+
+
+
+  .div1 .chancetouxiang{
+    position:absolute;
+    width:100%;
+    height:120px;
+    left:5px;
+    top:4px;
+    display: none;
+    background: white;
+  }
+  .div1 .chancetouxiang img{
+    width:47px;
+    height:47px;
+    float:left;
+    border:1px solid white; 
+    margin-right:3px;
+  }
+  .div1 .chancetouxiang img:hover{
+    border:1px solid #515567;
+  }
+
+
+
+  .div1 .name1{
+    position:absolute;
+  left:80px;
+  top:55px;
+  font-size:20px;
+  width:150px;
+  height:24px;
+  border:0;
+  }
+  .div1 .name2{
+    position:absolute;
+    left:80px;
+    top:85px;
+    width:230px;
+    font-size:14px;
+    border:0px;
+  }
+  .div1 .bd{
+    width:100%;
+  height:40px;
+  position:absolute;
+  top:140px;
+  }
+  .div1 .bd .input1{
+    width:287px;
+   border-bottom: 1px solid #666;
+  }
+  .div1 .bd .input2{
+    position:absolute;
+    right:10px;
+    width:21px;
+    height:21px;
+    background-image:url("../img/rearch.PNG");
+  }
+  .div1 .table1{
+  width:100%;
+  height:35px;
+  position:absolute;
+  top:170px;
+  border-bottom:1px solid #CCCCCC;
+  }
+  .div1 .table1 tr td{
+    width:25%;
+  height:35px;
+  text-align:center;
+  line-height:35px;
+  }
+  .tdclick{
+    width:25%;
+    height:35px;
+    text-align:center;
+    line-height:36px;
+    border-bottom: 2px solid #666666;
+  }
+  .div1 .table1 tr td img{
+    width:22px;
+  height:20px;
+    cursor:pointer;
+  }
+  .div1 .table1 tr td .img4{
+    width:13px;
+  height:20px;
+  }
+  .div1 .ul1{
+    list-style-type:none;
+  width:100%;
+  height:420px;
+  position:absolute;
+  top:210px;
+  left:0px;
+  display:block;
+  }
+  .div1 .ul1 li{
+    height:41px;
+  width:306px;
+  padding:7px 7px 7px 7px;  
+  border-top:1px solid #cccccc;
+  cursor:pointer;
+  }
+  .div1 .ul1 li:hover{
+    background-color:#F5F5F5;
+  }
+  .div1 .ul1 li img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+
+  }
+  .div1 .ul1 li .span1{
+    width:180px;
+  height:18px;
+    position:absolute;
+  }
+  .div1 .ul1 li .span2{
+    width:40px;
+  height:18px;
+    position:absolute;
+  right:7px;
+  font-size:13px;
+  }
+  .div1 .ul1 li .span3{
+    width:180px;
+  height:18px;
+    font-size:13px;
+  top:30px;
+  }
+  .div1 .small_box{
+    position:absolute;
+    width:100%;
+    top:210px;
+    display:none;
+    height:425px;
+  }
+  .div1 .small_box::-webkit-scrollbar {
+    width:8px;
+    height:0px;
+  }  
+  .div1 .small_box::-webkit-scrollbar-thumb{
+    background:#9C9C9C;
+    border-radius:10px;
+  }  
+  .div1 .small_box dl{
+    cursor:pointer;
+  }
+  .div1 .small_box dl dt{
+    height:40px;
+    position:relative;
+  }
+  .div1 .small_box dl dt a{
+    position:absolute;
+    right:0px;
+    top:0px;
+    width:22px;
+    height:22px;
+    font-size: 19px;
+    color:#CCCCCC;
+
+  }
+  .div1 .small_box dl dt a:hover{
+    color:#515567;
+  }
+  .friendsqq{
+    display:none;
+  }
+  .div1 .small_box dl dd{
+    width:100%;
+    height:60px;
+    border-top:1px solid #cccccc;
+    position:relative;
+  }
+  .div1 .small_box dl dd:hover{
+    background-color:#F5F5F5;
+  }
+  .div1 .small_box dl dd .hiddenqq{
+    display: none;
+  }
+  .div1 .small_box dl dd .haoyouimg{
+    width:44px;
+    height:44px;
+    position:absolute;
+    top:10px;
+    left:10px;
+    border-radius:50%;
+  }
+  .div1 .small_box dl dd .wangming{
+    width:150px;
+    height:20px;
+    position:absolute;
+    top:10px;
+    left:63px;
+  }
+  .div1 .small_box dl dd .gexingqianming{
+    width:250px;
+    height:20px;
+    color:#666666;
+    font-size: 12px;
+    position:absolute;
+    top:37px;
+    left:63px;
+  }
+  .div1 .small_box dl dd .online{
+    font-size: 13px;
+    color:#666666;
+  }
+  .div1 .small_box dl dd a{
+    top:18px;
+    right:0px;
+    width:22px;
+    height:20px;
+    font-size: 17px;
+    display: block;
+    color:#CCCCCC;
+    position:absolute;
+  }
+  .div1 .small_box dl dd a:hover{
+    color:#515567;
+  }
+
+
+
+  .div1 .qun{
+    position:absolute;
+    width:100%;
+    top:210px;
+    display:none;
+    height:425px;
+  }
+  .div1 .qun .ulqun{
+    width:100%;
+    height:100%;
+  }
+  .div1 .qun .ulqun li{
+    width:100%;
+    height:60px;
+    border-top:1px solid #cccccc;
+    position:relative;
+    cursor: pointer;
+  }
+  .div1 .qun .ulqun li:hover{
+    background-color:#F5F5F5;
+  }
+  .div1 .qun .ulqun li img{
+    width:44px;
+    height:44px;
+    position:absolute;
+    top:10px;
+    left:10px;
+    border-radius:50%;
+  }
+  .div1 .qun .ulqun li span{
+    width:150px;
+    height:20px;
+    position:absolute;
+    top:22px;
+    left:63px;
+    font-size: 15px;
+  }
+  .div1 .qun .ulqun li p{
+    display: none;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .div1 .tianjiafenzu{
+    position:absolute;
+    bottom:6px;
+    left:6px;
+    width:90px;
+  }
+  .div1 .tjfenzu{
+    position:absolute;
+    bottom:7px;
+    left:70px;
+    width:21px;
+    height:21px;
+    background-image:url("../img/rearch.PNG");
+  }
+  .xs{
+    border-top:1px solid #CCCCCC;
+  height:40px;
+  background:url(../img/fenzu.png) no-repeat;
+  padding-left:30px;
+  line-height:40px;
+
+  }
+  .xx{
+  border-top:1px solid #CCCCCC;
+  height:40px;
+  background:url(../img/fenzu2.png) no-repeat;
+  padding-left:30px;
+  line-height:40px;
+  }
+  .ww{
+    position:absolute;
+  left:50px;
+  }
+  
+
+
+
+
+  .div2{
+    position:absolute;
+    top: 40px; 
+    left: 520px; 
+    width:700px;
+    height:670px;
+    display: none;
+  }
+  .div2 .div21{
+    text-align:center;
+    width:100%;
+    height:45px;
+    position:absolute;
+    background-color: #515567;
+  }
+  .div2 .div21 .div210{
+    position:absolute;
+    width:42px;
+    height:32px;
+    top:7px;
+    left:7px;
+    background:url("../img/quncaidan.png") no-repeat;
+    cursor:pointer;
+    display:block;
+  }
+  .div2 .div21 .div2100{
+  position:absolute;
+    width:42px;
+    height:32px;
+    top:7px;
+    left:7px;
+    color:white;
+    text-align:center;
+    line-height:32px;
+    font-size:16px;
+    cursor:pointer;
+    display:none;
+  }
+  .div2 .div21 .div2100:hover{
+    color:#515567;
+    background-color:white;
+  }
+   .div2 .div21 .div211{
+  text-align:center;
+    color:white;
+    height:45px;
+    line-height:45px;
+  }
+  .div2 .div21 .div211 .online{
+    color:white;
+    font-size: 13px;
+  }
+  .div2 .div21 .div212{
+  position:absolute;
+    width:25px;
+    height:25px;
+    top:9px;
+    right:9px;
+    background:url("../img/close2.png") no-repeat;
+    cursor:pointer;
+    display:block;
+  }
+  
+   .div2 .divtouming{
+    position:absolute;
+    width:700px;
+    height:600px;
+    background-color:black;
+    filter:alpha(opacity=20); 
+    -moz-opacity:0.2; 
+    opacity:0.2;
+    color:white;
+    top:45px;
+  }
+  .div2 .divwenzi{
+    color:white;
+    position:absolute;
+    width:700px;
+    top:45px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    height:575px;
+    display:block;
+  } 
+  .div2 .divwenzi .divwenzikuai{
+    width:680px;
+    height:100px;
+    margin-top:40px;
+    font-size:13px;
+  }
+  .div2 .divwenzi::-webkit-scrollbar {
+    width:8px;
+    height:0px;
+  }  
+  .div2 .divwenzi::-webkit-scrollbar-thumb{
+    background:#9C9C9C;
+    border-radius:10px;
+  }  
+  .div2 .divwenzi .divwenzikuai img{
+    float:left;
+    margin-right:15px;
+    margin-left:15px;
+    width:43px;
+    height:43px;
+    border-radius:50%;
+  }
+  .div2 .divwenzi .divwenzikuai .divwenziname{
+    color:white;
+  }
+  .div2 .divwenzi .divwenzikuai .divwenzi1{
+    margin-top:25px;
+    margin-left:70px;
+    color:white;
+    font-size:15px;
+  }
+  .div2 .divwenzi .divwenzikuai .divwenzi2{
+  text-align:center;
+  
+    font-size:10px;
+    top:40px;
+    color:#646464;
+  }
+
+  .div2 .divwenzi .divwenzikuai2{
+    width:660px;
+    height:100px;
+    margin-top:40px;
+    font-size:13px;
+    position:relative;
+  }
+  .div2 .divwenzi .divwenzikuai2 img{
+    float:right;
+    margin-right:-5px;
+    width:43px;
+    height:43px;
+    border-radius:50%;
+  }
+  .div2 .divwenzi .divwenzikuai2 .divwenziname{
+    color:white;
+    float: right;
+    margin-right: 10px;
+  }
+  .div2 .divwenzi .divwenzikuai2 .divwenzi1{
+    margin-top:42px;
+    margin-right:5px;
+    color:white;
+    font-size:15px;
+    float:right;
+  }
+  .div2 .divwenzi .divwenzikuai2 .divwenzi2{
+    font-size:10px;
+    position:absolute;
+    color:#646464;
+    top:35px;
+    left:281px;
+    line-height:100px;
+  }
+
+
+
+
+
+
+  .div2 .divqunchengyuan{
+    color:white;
+    position:absolute;
+    width:680px;
+    top:45px;
+    padding:10px;
+    overflow:auto;
+    height:555px; 
+    display:none;
+  }
+  .div2 .divqunchengyuan::-webkit-scrollbar {
+    width:10px;
+    height:0px;
+  }  
+  .div2 .divqunchengyuan::-webkit-scrollbar-thumb{
+    background:#515567;
+    border-radius:10px;
+  }  
+  .div2 .divqunchengyuan .ul3{
+    width:110%;
+    height:550px;
+    top:0px;
+    position:absolute;
+    left:-10px;
+  }
+  /*.div2 .divqunchengyuan .ul3 .chengyuan{
+    position:absolute;
+    color:white;
+    font-size:17px; 
+    width:100%;
+    height:60px;
+    border-bottom:1px solid white;
+    line-height:60px;
+    padding-left:330px;
+  }
+  .div2 .divqunchengyuan .ul3 .chengyuan span:hover{
+    color:#515567;
+  }*/
+  .div2 .divqunchengyuan .ul3 li{
+    height:50px;
+    border-bottom:1px solid white;
+    padding-left:20px;
+    padding-top:10px;
+    color:white;
+  }
+  .div2 .divqunchengyuan .ul3 li:hover{
+    background-color:#797D8F;
+  }
+  .div2 .divqunchengyuan .ul3 li img{
+    width:45px;
+    border-radius: 50%;
+    float: left;
+  }
+  .div2 .divqunchengyuan .ul3 li span{
+    width:100px;
+    height:44px;
+    line-height: 44px;
+    color:white;
+    margin-left: 60px;
+    display: block;
+  }
+  .div2 .div22{
+    width:100%;
+    height:50px;
+    position:absolute;
+    left:0px;
+    bottom: 0px;
+    background-color: #515567;
+  }
+  .div2 .div22 .div221{
+    position:absolute;
+    width:50px;
+    height:50px;
+    padding:2px 0px 0px 2.5px;
+  }  
+  .div2 .div22 .div221 img{
+    width:46px;
+    height:46px;
+  }  
+  .div2 .div22 form input{
+  	color:white;
+  }
+  .div2 .div22 form .input1{
+    position:absolute;
+    top:7px;
+    width:540px;
+    height:36px;
+    left:55px;
+    line-height:33px;
+  }
+  .div2 .div22 form .input2{
+    position:absolute;
+    top:8px;
+    left:605px;
+    border:0px;
+  }
+  
+
+
+
+  .addfriend{
+    position: relative;
+    width:99%;
+    height:250px;
+    top:15px;
+  }
+  .addfriend .fanhui{
+    position:absolute;
+    display: block;
+    width:60px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    top:0px;
+    right:0px;
+  }
+  .addfriend img{
+    position:absolute;
+    top:100px;
+    left:600px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:2px solid white;
+  }
+  .addfriend .wangming{
+    color:white;
+    position:absolute;
+    display: block;
+    width:150px;
+    height:20px;
+    top:105px;
+    left:685px;
+  }
+  .addfriend .gexingqianming{
+    color:#CCCCCC;
+    position:absolute;
+    display: block;
+    width:300px;
+    height:20px;
+    top:140px;
+    font-size: 13px;
+    left:685px;
+  }
+  .addfriend .friendqq{
+    color:white;
+    position:absolute;
+    display: block;
+    width:300px;
+    height:20px;
+    top:190px;
+    font-size: 13px;
+    left:603px;
+  }
+  .formaddfriend{
+    position:relative;
+    width:700px;
+    height:350px;
+    top:110px;
+    left:520px;
+  }
+  .formaddfriend select{
+    width:200px;
+    height:30px;
+    border:1px solid white;
+    background-color: transparent;
+    color:white;
+  }
+  .formaddfriend select:hover{
+    border:1px solid #30D0B6;
+  }
+  .formaddfriend span{
+    color:white;
+    font-size: 14px;
+  }
+  .formaddfriend input{
+    color:white;
+    border:1px solid white;
+    width:100px;
+    height:30px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 24px;
+    padding: 0 0 0 0;
+  }
+  .formaddfriend input:hover{
+    color:#30D0B6;
+    border:1px solid #30D0B6;
+  }
+  
